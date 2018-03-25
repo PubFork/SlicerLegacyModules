@@ -11,6 +11,10 @@ specific to be distributed with Slicer.
 Available modules
 -----------------
 
+* Filtering
+  * BlobDetection: Blob Detection based on ITK MultiScaleHessianBasedMeasureImageFilter and HessianToObjectnessMeasureImageFilter.
+  * ConnectedComponent: ConnectedComponentImageFilter labels the objects in a binary image. Each distinct object is assigned a unique label. 
+
 
 How to extract module history from Slicer and include it in this extension ?
 ----------------------------------------------------------------------------
@@ -93,4 +97,4 @@ git cherry-pick $FIRST_COMMIT..$LAST_COMMIT
 
 ```
 
-Finally, update this extension `CMakeLists.txt` to reference the new modules.
+Finally, update this extension `CMakeLists.txt` and `README.md` to reference the new modules.

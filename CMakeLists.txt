@@ -19,6 +19,8 @@ include(${Slicer_USE_FILE})
 
 #-----------------------------------------------------------------------------
 # Extension modules
+add_subdirectory(Modules/CLI/BlobDetection)
+add_subdirectory(Modules/CLI/ConnectedComponent)
 ## NEXT_MODULE
 
 #-----------------------------------------------------------------------------
