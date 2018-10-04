@@ -44,7 +44,7 @@ cd SlicerForLegacyModuleExtraction
 ```
 
 
-### Step 3: Extract condidate modules history
+### Step 3: Extract candidate modules history
 
 Repeat this step for every module history to extract.
 
