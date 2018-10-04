@@ -38,7 +38,7 @@ on which you work on a daily basis_
 ```
 cd /tmp
 
-git checkout git://github.com/Slicer/Slicer SlicerForLegacyModuleExtraction
+git clone git://github.com/Slicer/Slicer SlicerForLegacyModuleExtraction
 
 cd SlicerForLegacyModuleExtraction
 ```
